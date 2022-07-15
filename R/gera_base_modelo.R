@@ -1,6 +1,7 @@
 source("R/categoriza_wt.R")
 
 mtcars_bruto <- read_csv2("data-raw/mtcars.csv")
+# aqui lemos o arquivo bruto
 
 mtcars_modelo <- mtcars_bruto |>
   mutate(
